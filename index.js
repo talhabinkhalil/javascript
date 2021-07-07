@@ -58,3 +58,47 @@
 // }
 // console.log(ar)
 
+// const a = { name: "Talha" } === { name: "Talha" } return false
+
+// console.log(!!"")
+// _________________
+
+// let a = "";
+
+// console.log(a || "Maxilimian")  returns Maximilian if a is empty otherwise a 
+
+//________________
+
+// const isLoggedIn = false;
+
+// console.log(isLoggedIn && "OK");
+
+
+// let age = "asd";
+
+// function greet() {
+//     console.log(age);
+// }
+
+// greet();
+
+var age = "asd";
+let boss = "ALI";
+
+if (age === "asd") {
+    var bb = "pp";
+    let vv = "asd";
+    let boss = "aaa";
+    console.log(boss)
+}
+
+console.log(bb) //displays values , not give an error
+console.log(boss)
+
+function greet() {
+    var dd = "zxzxzx";
+    console.log(age, dd);
+}
+
+greet();
+console.log(age, dd) // gives error
